@@ -105,10 +105,11 @@ Example run.
 $ python3 main.py --hf_token=${HF_TOKEN}
 Device set to use mps
 Model:        google/gemma-3-270m-it
+Device:       mps:0
 Precision:    torch.bfloat16
 ================================================================================
 Input prompt: What causes climate change?
-Climate change is caused by human activities that release greenhouse gases into the atmosphere. These gases trap heat, leading to global warming and its associated effects.
+Climate change is caused by human activities, primarily the burning of fossil fuels.
 ```
 
 # References

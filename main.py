@@ -53,6 +53,7 @@ def main():
     model_runner = model()
 
     print(f"Model:        {model_runner.model_name}")
+    print(f"Device:       {model_runner.model.device}")
     print(f"Precision:    {model_runner.model.dtype}")
     print("=" * 80)
     print(f"Input prompt: {args.prompt}")
